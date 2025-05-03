@@ -1,0 +1,48 @@
+# === Python & Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Local database or Django media
+db.sqlite3
+/media/
+staticfiles/
+static/
+logs/
+
+# === Environment ===
+.env
+.env.*
+secrets.json
+config/settings_local.py
+
+# === Testing ===
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# === IDE & OS files ===
+.vscode/
+*.code-workspace
+.DS_Store
+
+# === Docker ===
+*.pid
+*.seed
+*.bak
+*.swp
+docker-compose.override.yml
+pgadmin_data/
+postgres_data/
+
+# === Node/Frontend (optional future) ===
+node_modules/
+dist/
+build/
+*.lock
