@@ -9,6 +9,7 @@ services:
       - ./.env
     volumes:
       - .:/app
+      - ./staticfiles:/app/staticfiles
     ports:
       - "8000:8000"
     depends_on:
